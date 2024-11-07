@@ -31,7 +31,7 @@ const Users = () => {
                     <div className="flex h-full w-full items-center justify-center">
                         <div className="h-9 w-9">
                         <Image 
-                            src={`/${params.value}`} 
+                            src={`${process.env.NEXT_PUBLIC_S3_BUCKET_URL}/${params.value}`} 
                             alt="profile"
                             width={36} 
                             height={36} 
