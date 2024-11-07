@@ -10,7 +10,7 @@ type TableViewProps = {
     id: string;
     setIsModalNewTaskOpen: (value: boolean) => void;
 }
-
+// Define grid
 const columns: GridColDef[] = [
     { field: "title", headerName: "Title", width: 100 },
     { field: "description", headerName: "Description", width: 200 },
