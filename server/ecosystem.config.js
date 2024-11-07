@@ -1,5 +1,5 @@
 module.exports = {
-    app: [
+    apps: [
         {
             name: "dbasana",
             script: "npm",
